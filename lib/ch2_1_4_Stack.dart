@@ -108,7 +108,7 @@ void main() => runApp(MyApp());
 // }
 
 // 6단계
-int _selectedIndex = 1;
+int _selectedIndex = 2;
 
 class MyApp extends StatelessWidget {
   
