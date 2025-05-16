@@ -109,10 +109,10 @@ void main() => runApp(MyApp());
 
 // 6단계
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
   int _selectedIndex = 0;
 
+  const MyApp({super.key});
+ 
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
