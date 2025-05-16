@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 void main() => runApp(MyApp());
 
 // 1단계
-// class MyApp extends StatelessWidget {
-//   const MyApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
-//   Widget build(BuildContext context) {
-//     return MaterialApp(
-//     );
-//   }
-// }
+  Widget build(BuildContext context) {
+    return MaterialApp(
+    );
+  }
+}
 
 // 2단계
 // class MyApp extends StatelessWidget {
@@ -108,41 +108,41 @@ void main() => runApp(MyApp());
 // }
 
 // 6단계
-int _selectedIndex = 0;
+// int _selectedIndex = 0;
 
-class MyApp extends StatelessWidget {
+// class MyApp extends StatelessWidget {
   
-  const MyApp({super.key});
+//   const MyApp({super.key});
  
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: IndexedStack(
-            index: _selectedIndex,
-            children: <Widget>[
-              Container(
-                color: Colors.red,
-                child: Center(
-                  child: Text('첫 번째 페이지', style: TextStyle(color: Colors.white, fontSize: 24)),
-                ),
-              ),
-              Container(
-                color: Colors.green,
-                child: Center(
-                  child: Text('두 번째 페이지', style: TextStyle(color: Colors.white, fontSize: 24)),
-                ),
-              ),
-              Container(
-                color: Colors.blue,
-                child: Center(
-                  child: Text('세 번째 페이지', style: TextStyle(color: Colors.white, fontSize: 24)),
-                ),
-              ),
-            ],
-          )
-        )        
-      )
-    );
-  }
-}
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       home: Scaffold(
+//         body: Center(
+//           child: IndexedStack(
+//             index: _selectedIndex,
+//             children: <Widget>[
+//               Container(
+//                 color: Colors.red,
+//                 child: Center(
+//                   child: Text('첫 번째 페이지', style: TextStyle(color: Colors.white, fontSize: 24)),
+//                 ),
+//               ),
+//               Container(
+//                 color: Colors.green,
+//                 child: Center(
+//                   child: Text('두 번째 페이지', style: TextStyle(color: Colors.white, fontSize: 24)),
+//                 ),
+//               ),
+//               Container(
+//                 color: Colors.blue,
+//                 child: Center(
+//                   child: Text('세 번째 페이지', style: TextStyle(color: Colors.white, fontSize: 24)),
+//                 ),
+//               ),
+//             ],
+//           )
+//         )        
+//       )
+//     );
+//   }
+// }
