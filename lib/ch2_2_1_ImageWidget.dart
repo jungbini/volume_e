@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         body: Center( 
           child: Image(
-            image: AssetImage('assets/images/pic.jpg'),
+            image: AssetImage('/assets/images/pic.jpg'),
             // image: NetworkImage('https://pouriahosseini.gallerycdn.vsassets.io/extensions/pouriahosseini/omga-auto-commit/1.2.3/1741430181362/Microsoft.VisualStudio.Services.Icons.Default')
           ),
         ),  
