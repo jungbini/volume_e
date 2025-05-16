@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
       )     
     );
   }
-// }
+}
 
 // 3단계
 // class MyApp extends StatelessWidget {
