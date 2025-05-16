@@ -18,6 +18,31 @@ void main() => runApp(MyApp());
 // }
 
 // 2단계
+// class MyApp extends StatelessWidget {
+//   const MyApp({super.key});
+
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       home: Scaffold(
+//         body: Center( 
+//           child: Container(
+//             width: 200,
+//             height: 100,
+//             padding: EdgeInsets.all(8.0),
+//             margin: EdgeInsets.symmetric(horizontal: 20.0, vertical: 30.0),
+            
+//             child: Text(
+//               'Hello, Container!',
+//               style: TextStyle(color: Colors.black, fontSize: 24),
+//             )
+//           ),
+//         ),  
+//       )     
+//     );
+//   }
+// }
+
+// 3단계
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -30,6 +55,8 @@ class MyApp extends StatelessWidget {
             height: 100,
             padding: EdgeInsets.all(8.0),
             margin: EdgeInsets.symmetric(horizontal: 20.0, vertical: 30.0),
+
+            // 데코레이션 추가
             decoration: BoxDecoration( 
               color: Colors.blue,
               border: Border.all(color: Colors.black, width: 3),
@@ -43,6 +70,8 @@ class MyApp extends StatelessWidget {
                 ),
               ],
             ),
+
+            // 폰트 색깔을 흰색으로
             child: Text(
               'Hello, Container!',
               style: TextStyle(color: Colors.white, fontSize: 24),
