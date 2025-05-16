@@ -107,10 +107,12 @@ void main() => runApp(MyApp());
 //   }
 // }
 
+int _selectedIndex = 0;
+
+
 // 6단계
 class MyApp extends StatelessWidget {
-  int _selectedIndex = 0;
-
+  
   const MyApp({super.key});
  
   Widget build(BuildContext context) {
