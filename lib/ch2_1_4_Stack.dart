@@ -127,13 +127,13 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Container(
-                color: Colors.red,
+                color: Colors.green,
                 child: Center(
                   child: Text('두 번째 페이지', style: TextStyle(color: Colors.white, fontSize: 24)),
                 ),
               ),
               Container(
-                color: Colors.red,
+                color: Colors.blue,
                 child: Center(
                   child: Text('세 번째 페이지', style: TextStyle(color: Colors.white, fontSize: 24)),
                 ),
