@@ -18,28 +18,20 @@ void main() => runApp(MyApp());
 // }
 
 // 2단계
-// class MyApp extends StatelessWidget {
-//   const MyApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
-//   Widget build(BuildContext context) {
-//     return MaterialApp(
-//       home: Scaffold(
-//         body: Center( 
-//           child: Container(
-//             width: 200,
-//             height: 100,
-//             padding: EdgeInsets.all(8.0),
-//             margin: EdgeInsets.symmetric(horizontal: 20.0, vertical: 30.0),
-            
-//             child: Text(
-//               'Hello, Container!',
-//               style: TextStyle(color: Colors.black, fontSize: 24),
-//             )
-//           ),
-//         ),  
-//       )     
-//     );
-//   }
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        body: Center( 
+          child: Image(
+            image: NetworkImage('https://pouriahosseini.gallerycdn.vsassets.io/extensions/pouriahosseini/omga-auto-commit/1.2.3/1741430181362/Microsoft.VisualStudio.Services.Icons.Default')
+          ),
+        ),  
+      )     
+    );
+  }
 // }
 
 // 3단계
