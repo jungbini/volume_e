@@ -86,6 +86,28 @@ void main() => runApp(MyApp());
 // }
 
 // 5단계: IndexedStack
+// class MyApp extends StatelessWidget {
+//   const MyApp({super.key});
+
+//   int _selectedIndex = 0;
+
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       home: Scaffold(
+//         body: Center(
+//           child: IndexedStack(
+//             index: _selectedIndex,
+//             children: <Widget>[
+              
+//             ],
+//           )
+//         )        
+//       )
+//     );
+//   }
+// }
+
+// 6단계
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -98,7 +120,24 @@ class MyApp extends StatelessWidget {
           child: IndexedStack(
             index: _selectedIndex,
             children: <Widget>[
-              
+              Container(
+                color: Colors.red,
+                child: Center(
+                  child: Text('첫 번째 페이지', style: TextStyle(color: Colors.white, fontSize: 24)),
+                ),
+              ),
+              Container(
+                color: Colors.red,
+                child: Center(
+                  child: Text('두 번째 페이지', style: TextStyle(color: Colors.white, fontSize: 24)),
+                ),
+              ),
+              Container(
+                color: Colors.red,
+                child: Center(
+                  child: Text('세 번째 페이지', style: TextStyle(color: Colors.white, fontSize: 24)),
+                ),
+              ),
             ],
           )
         )        
