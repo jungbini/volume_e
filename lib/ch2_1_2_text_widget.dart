@@ -16,14 +16,13 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
+  @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
         // SafeArea: OS의 시스템 UI요소와 겹치지 않도록 위젯을 배치
-        body: SafeArea(     
-          child: Text('Hello, World!')
-        )
-      )
+        body: SafeArea(child: Text('Hello, World!')),
+      ),
     );
   }
 }
