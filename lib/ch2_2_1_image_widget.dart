@@ -64,9 +64,8 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         body: Center(
           child:
-          // Image.asset('assets/images/pic.jpg'),
-          Image.network(
-            'https://pouriahosseini.gallerycdn.vsassets.io/extensions/pouriahosseini/omga-auto-commit/1.2.3/1741430181362/Microsoft.VisualStudio.Services.Icons.Default',
+          Image.asset('assets/images/pic.jpg'),
+          // Image.network('https://pouriahosseini.gallerycdn.vsassets.io/extensions/pouriahosseini/omga-auto-commit/1.2.3/1741430181362/Microsoft.VisualStudio.Services.Icons.Default'),
           ),
         ),
       ),
